@@ -34,5 +34,5 @@ Instructions for running Jupyter Notebooks for analysis of both Discrete Optimiz
 
 Instructions for running Jython code to generate raw CSV files:
 1. Install Jython
-2. Run ABAGAIL/jython/run.sh to run tuned ROs and return average of 10 rounds
+2. Run "sudo ./ABAGAIL/jython/run.sh" to run tuned ROs and return average of 10 rounds
 3. For running other experiments all experiments have been commented clearly within the jython files mentioned above. Feel free to uncomment them to run them. I have commented them out by default since it would take hours to run if all are uncommented at once.

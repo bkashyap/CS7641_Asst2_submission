@@ -8,13 +8,13 @@ mkdir -p data/plot logs image
 # Uncomment the one you want to run
 
 # continuous peaks
-#echo "continuous peaks"
-# jython continuouspeaks_asst2.py
+echo "continuous peaks"
+jython continuouspeaks_asst2.py
 
 # Knapsack Problem
-#echo "knapsack"
-#jython knapsack_asst2.py
+echo "knapsack"
+jython knapsack_asst2.py
 
 # Traveling Salesman Problem
-#echo "TSP"
-#jython travelingsalesman_asst2.py
+echo "TSP"
+jython travelingsalesman_asst2.py

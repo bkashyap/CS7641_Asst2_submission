@@ -500,7 +500,7 @@ for i in range(10):
     # Random number generator */
     random = Random(1234*i)
     # The number of items
-    NUM_ITEMS = 150
+    NUM_ITEMS = 75
     # The number of copies each
     COPIES_EACH = 4
     # The maximum weight for a single element

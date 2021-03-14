@@ -380,7 +380,7 @@ expt = "expt_avg"
 score_RHC, score_SA, score_GA, score_MIMIC = [],[],[],[]
 
 for i in range(10):
-    N = 50
+    N = 150
     T = N / 50
     fill = [2] * N
     ranges = array('i', fill)

@@ -1,10 +1,17 @@
 Assignment 2: Randomized Optimization
 
-Link to code and data
+Link to code and data https://github.com/bkashyap/CS7641_Asst2_submission
 
 All analysis is done in Jupyter IPython Notebooks you should be able to see the charts and code by just opening the files in github. Here are the direct links
-1. Wine Quality - https://github.com/bkashyap/CS7641_Asst1_submission/blob/master/WineQuality.ipynb
-2. Breast cancer - https://github.com/bkashyap/CS7641_Asst1_submission/blob/master/BreastCancer.ipynb
+Discrete Optimization Problems
+1. ContinuousPeaks Problem Analysis - https://github.com/bkashyap/CS7641_Asst2_submission/blob/master/ContinuousPeaks.ipynb
+2. Knapsack Problem Analysis - https://github.com/bkashyap/CS7641_Asst2_submission/blob/master/Knapsack.ipynb
+3. TravelingSalesman Problem Analysis - https://github.com/bkashyap/CS7641_Asst2_submission/blob/master/TravelingSalesman.ipynb
+Neural Networks
+Neural Network Complete Analysis - https://github.com/bkashyap/CS7641_Asst2_submission/blob/master/NeuralNetwork.ipynb
+
+
+How to run Instructions
 
 Discrete Optimization
 For Discrete Optimization I use ABAGAIL Library.
@@ -17,24 +24,15 @@ The following Files are used for generating the CSV.
 1. ABAGAIL/jython/continuouspeaks_asst2.py - for CP
 2. ABAGAIL/jython/knapsack_asst2.py - for KP
 3. ABAGAIL/jython/travelingsalesman_asst2.py - for TSP
+4. ABAGAIL/jython/run.sh is used for running above files
 
-Instructions for running:
-1. Sync code from github repository
-2. Select
-
-
-Neural Networks
-
-
-
-
-Code used from external sources have been referenced in the comments.
-
-Here is the link to the entire repository containing the data and notebooks: https://github.com/bkashyap/CS7641_Asst1_submission
-
-How to run:
-1. Clone repository from github:https://github.com/bkashyap/CS7641_Asst1_submission
+Instructions for running Jupyter Notebooks for analysis of both Discrete Optimization and Neural Network Sections:
+1. Sync code from github repository from https://github.com/bkashyap/CS7641_Asst2_submission
 2. requirements.txt contains all dependencies (The major ones are pandas, numpy, jupyter, seaborn, matplotlib). Create Python3 environment using requirements.txt by running "pip3 install -r requirements.txt" while inside project directory
-3. Run jupyter-notebook on a terminal
-4. Open localhost:8888 on your browser and navigate and open WineQuality.ipynb or BreastCancer.ipynb
-5. If you need to run the code you can run individual code blocks by pressing shift + enter
+3. Open localhost:8888 on your browser and navigate and open ContinuousPeaks.ipynb, Knapsack.ipynb, TravelingSalesman.ipynb or NeuralNetwork.ipynb
+4. If you need to run the code you can run individual code blocks by pressing shift + enter
+
+Instructions for running Jython code to generate raw CSV files:
+1. Install Jython
+2. Run ABAGAIL/jython/run.sh to run tuned ROs and return average of 10 rounds
+3. For running other experiments all experiments have been commented clearly within the jython files mentioned above. Feel free to uncomment them to run them. I have commented them out by default since it would take hours to run if all are uncommented at once.
